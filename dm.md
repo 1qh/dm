@@ -2,6 +2,8 @@
 
 ## Count
 
+- Có **50 + 33 - 16 = 67** số tự nhiên 1 - 100 hoặc chia hết cho 2 hoặc chia hết cho 3
+
 - 32 xâu nhị phân độ dài 5
 
 - 16 xâu nhị phân độ dài 5 sao cho bít đầu = bít cuối
@@ -43,14 +45,24 @@
 
 - 15 nam vào 15 nữ. 15C1 x 15C2 cách bầu 1 nam và 2 nữ
 
+- Có 6.5.4.3.5! = **43200**
+  - cách sắp xếp 5 nam và 4 nữ trên một hàng ngang sao cho ko có 2 nữ nào cạnh nhau
+  - hoán vị của 1, 2, 3, 4, 5, 6, 7, 8, 9 sao cho ko có 2 chẵn nào cạnh nhau
 - $X1 + X2 + X3 + X4 = 11$ có **$C^3_{10} = 120$** nghiệm nguyên dương
 
 - Có thể chọn nhiều nhất **4 việc** để phân cho thợ sao cho mỗi việc chỉ được thực hiện bởi duy nhất 1 thợ và mỗi thợ ko thực hiện quá 1 việc
+
   - thợ 1 việc 4
   - thợ 2 việc 1 or 5
   - thợ 3 việc 4
   - thợ 4 việc 2 or 3
   - thợ 5 việc 1 or 5
+
+- 10 số 1-10 xếp trên đường thẳng theo thứ tự từ trái qua phải.
+  - **35** cách chọn ra 4 phần tử sao cho ko có 2 phần tử nào đứng cạnh nhau cùng được chọn
+    - $1 \le x1 \le x2+1 \le x3+2 \le x4+3 \le 10 $
+    - $1 \le x1 < x2 < x3 < x4 \le 7$
+    - $C^4_7 = 35$
 
 ## Graph
 

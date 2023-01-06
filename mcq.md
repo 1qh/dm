@@ -182,341 +182,157 @@ Biết rằng
 
 Hãy xác định thời gian sớm nhất hoàn thành việc gia công 6 chi tiết sản phẩm trên 2 máy A và B.
 
-28
-
-51
-
-27
-
-24
+- 28
 
 Cho đồ thị vô hướng G. Kết luận “duyệt theo chiều rộng từ đỉnh s cho phép tìm được đường đi ngắn nhất theo số cạnh từ s đến tất cả các đỉnh thuộc cùng thành phần liên thông với s” là đúng hay sai?
-SAI
 
-ĐÚNG
+- ĐÚNG
 
 Cho đồ thị có hướng G=(V,E) trong đó tập đỉnh V = {1,2,3,4,5,6} và tập cung E = {(2,1),(2,5),(2,6),(3,1),(3,2),(5,4),(5,6),(6,1),(6,4)}. Trọng số các cung được cho sau đây: w(2,1) = 5, w(2,5) = 1, w(2,6) = 4, w(3,1) = 1, w(3,2) = 2, w(5,4) = 8, w(5,6) = 1, w(6,1) = 1, w(6,4) = 3. Hỏi đường đi ngắn nhất từ đỉnh 3 đến đỉnh 4 có độ dài bằng bao nhiêu?
-5
 
-6
-
-7
-
-8
+- 7
 
 Một sinh viên có thể chọn đồ án tốt nghiệp trên máy tính từ một trong 3 danh sách tương ứng có 100, 200, và 300 đề tài. Hỏi một sinh viên có bao nhiêu cách chọn đề tài?
-600
 
-100
-
-200
-
-6000000
+- 600
 
 Có bao nhiêu số tự nhiên từ 1 đến 100 hoặc chia hết cho 2 hoặc chia hết cho 3 ?
-50
 
-67
-
-48
-
-35
+- 67
 
 Trên bảng viết các số tự nhiên liên tiếp từ 1 đến 2018. Mỗi bước có thể chọn 2 số a và b, sau đó xóa 2 số này đi và viết lên bảng số a+b hoặc a-b hoặc b-a. Hỏi sau 2017 bước, số còn lại trên bảng có thể là số 2018 hay không?
-Có
 
-Không
+- Không
 
 G là một đồ thị phẳng (planar graph) và liên thông có 7 đỉnh và 12 cạnh, Hỏi đồ thị đó chia mặt phẳng thành mấy vùng?
-5
 
-6
-
-7
-
-8
-
-đều sai
+- 7
 
 Hỏi có tồn tại đồ thị phẳng liên thông sao cho mỗi đỉnh kề với ít nhất 6 đỉnh khác hay không?
-Không
 
-Có
+- Không
 
 Đồ thị K3,5 có số đỉnh là bao nhiêu ?
-3
 
-5
-
-8
-
-155
-
-Tất cả các phương án trả lời đều sai
+- 8
 
 Có tồn tại đồ thị phẳng nào gồm 8 cạnh và chia mặt phẳng thành 6 vùng không?
-Có
 
-Không
+- Không
 
 Hỏi có bao nhiêu bộ có thứ tự (A,B) sao cho A là tập con của B và B là tập con của {1,2,3,4,5}?
-120
 
-203
-
-243
-
-289
-
-Tất cả các phương án trả lời đều sai
+- 243
 
 Có bao nhiêu cách sắp xếp 5 nam sinh và 4 nữ sinh trên một hàng ngang sao cho không có 2 nữ sinh nào đứng cạnh nhau?
-11204
 
-234300
-
-333246
-
-259200
-
-Tất cả các phương án trả lời đều sai
+- 43200
 
 Cho G là đồ thị vô hướng liên thông có 10 đỉnh, bậc của mỗi đỉnh là 5. Hỏi kết luận "Đồ thị G là đồ thị Hamilton (có chu trình Hamilton trên G)" đúng hay sai?
-Đúng
 
-Sai
+- Đúng
 
 Cho một xâu nhị phân, khái niệm vệt được định nghĩa là xâu con liên tiếp các bít 1 có độ dài dài nhất có thể của xâu đã cho (và được ngăn cách bới dãy liên tiếp các bít 0). Ví dụ: xâu 1111001101110 có các vệt như sau: 1111, 11, và 111
 Hỏi có bao nhiêu xâu nhị phân độ dài 10 thỏa mãn điều kiện:
 
 Độ dài các vệt của xâu là lớn hơn hoặc bằng 2 và nhỏ hơn hoặc bằng 6
 Giữa các vệt của xâu đã cho chỉ có đúng 1 bít 0
-19
 
-25
-
-31
-
-40
-
-42
-
-Tất cả các phương án trả lời đều sai
+- 31
 
 Cho đồ thị vô hướng G=(V,E), trong đó tập đỉnh V = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10} và tập cạnh E = {(1,2), (1,3), (1,4), (1,10), (2, 3), (2,6), (2,10), (3,4), (3,5), (3,6), (4,5), (5,6), (5,7), (5,9), (6,7), (6,8), (7,8),(7,9),(8,10)}. Hỏi đồ thị G có thể định hướng được (gán mỗi cạnh của đồ thị một hướng để biến thành đồ thị có hướng liên thông mạnh) hay không?
-Có
 
-Không
+- Có
 
 Một đơn đồ thị vô hướng có 10 đỉnh thì cần ít nhất bao nhiêu cạnh để chắc chắn nó chứa chu trình?
-8
 
-9
-
-10
-
-11
-
-12
-
-Tất cả các phương án trả lời đều sai
+- 10
 
 10 số 1, 2, ..., 10 được xếp trên đường thẳng theo thứ tự từ trái qua phải. Hỏi có bao nhiêu cách chọn ra 4 phần tử sao cho không có 2 phần tử nào đứng cạnh nhau cùng được chọn.
-20
 
-37
-
-42
-
-35
-
-50
-
-Tất cả các phương án trả lời đều sai.
+- 35
 
 Có bao nhiêu cách chọn ra 4 phần tử từ 10 phần tử nằm trên 1 vòng tròn sao cho không có 2 phần tử nào đứng cạnh nhau cùng được chọn.
-20
 
-22
+- 25
 
-25
-
-31
-
-39
-
-Tất cả các phương án trả lời đều sai
-
-Chứng minh rằng một cây khung bất kỳ của đồ thị vô hướng liên thông G luôn chứa ít nhất 1 cạnh vượt của một lát cắt (cut) bất kỳ của G.
 Có bao nhiêu hoán vị của 1, 2, 3, 4, 5 sao cho i không đứng ở vị trí thứ i trong hoán vị (mọi i = 1, 2, 3, 4, 5)
-120
 
-44
-
-34
-
-52
-
-66
-
-Tất cả các phương án trả lời đều sai.
+- 44
 
 Có 4 loại đồ vật 1, 2, 3, 4 với trọng lượng tương ứng là 5, 3, 2, 4 và giá trị tương ứng là 10, 5, 3, 6. Cần tính toán xem với mỗi loại đồ vật chọn ra một số lượng là bao nhiêu để xếp vào một cái túi sao cho tổng các đồ vật nhỏ hơn hoặc bằng 14 và tổng giá trị là lớn nhất. Hỏi tổng giá trị lớn nhất đó là bao nhiêu?
-23
 
-24
-
-25
-
-26
-
-27
-
-Không có phương án trả lời nào đúng
+- 26
 
 Ký hiệu D(15) là số hoán vị của 1, 2, ..., 15 trong đó i không đứng ở vị trí thứ i trong hoán vị (mọi i = 1, 2, ..., 15). Hãy cho biết kết luận nào sau đây là đúng ?
-D(15) là số chẵn
 
-D(15) là số lẻ
+- D(15) là số chẵn
 
 Cho 4 đồ thị G1, G2, G3, G4 dưới đây. Hỏi trong 4 đồ thị đó thì có bao nhiêu cặp đồ thị đẳng cấu với nhau?
 quiz test
-0
 
-1
-
-2
-
-3
-
-4
-
-5
-
-Không có phương án trả lời nào đúng
+- 1
 
 Cho đồ thị vô hướng trọng số trên cạnh G = (V,E) trong đó V = {1,2,3,4,5,6} và E = {(1,2),(1,3),(1,6),(2,3),(2,5),(2,6),(4,5),(4,6),(5,6)}. Trọng số trên cạnh w(1,2) = 1, w(1,3) = 1, w(1,6) = 4, w(2,3) = 1, w(2,5) = 2, w(2,6) = 2, w(4,5) = 3, w(4,6) = 5, w(5,6) = 2. Hỏi có tồn tại cây khung nhỏ nhất của G không chứa đồng thời 3 cạnh (1,2), (2,3) và (1,3) hay không?
-CÓ
 
-KHÔNG
+- KHÔNG
 
 Cho G là một cây có n đỉnh và m cạnh. Hỏi phát biểu nào sau đây không đúng?
-m lớn hơn hoặc bằng n
 
-Khi thêm một cạnh bất kỳ nối 2 đỉnh của G thì ta thu được đồ thị mới chứa chu trìnhh
-
-Giữa 2 đỉnh u và v bất kỳ trên G, có đúng 1 đường đi từ u đến v.
-
-m = n - 1
-
-Trên G tồn tại ít nhất 2 đỉnh có bậc bằng 1
-
-Tất cả các phát biểu đều đúng
+- m lớn hơn hoặc bằng n
 
 Cho một mạng G = (V,E) trong đó V = {1,2,3,4,5,6,7,8} là tập đỉnh và tập cung E với khả năng thông qua được cho như sau: c(1, 2)= 7, c(1, 3) = 6, c(1, 8) = 2, c(2, 3) = 5, c(2, 5)= 2, c(3, 6) = 9, c(3, 7)= 8, c(3, 8) = 4, c(5, 4) = 8, c(6, 4)= 2, c(7, 5)= 1, c(7, 6)= 4, c(8, 6)= 3, c(8, 4) = 5. Hỏi lát cắt ({1, 2, 3}, {4, 5, 6, 7, 8}) có khả năng thông qua là bao nhiêu?
-20
 
-18
-
-Tất cả các đáp án đều sai
-
-28
-
-25
+- 25
 
 Cho G là đơn đồ thị vô hướng có n đỉnh và m cạnh. Phát biểu nào sau đây đúng ?
-Nếu m lớn hơn hoặc bằng n thì G luôn chứa chu trình
 
-m nhỏ hơn n thì G luôn chứa chu trình
-
-m lớn hơn n thì đồ thị G là liên thông
-
-m nhỏ hơn n thì G không chứa chu trình
-
-Tất cả các phát biểu đều sai
+- Nếu m lớn hơn hoặc bằng n thì G luôn chứa chu trình
 
 Cho G là đơn đồ thị vô hướng có n đỉnh và m cạnh. Phát biểu nào sau đây không đúng?
-G liên thông thì m là số chẵn
 
-G là liên thông thì m lớn hơn hoặc bằng n-1
-
-Bậc mỗi đỉnh của G lớn hơn hoặc bằng 2 thì G luôn chứa chu trình
-
-Tất cả các phát biểu đều đúng
+- G liên thông thì m là số chẵn
 
 Cho G là cây có n đỉnh và m cạnh. Phát biểu nào sau đây là đúng ?
-m = n - 1
 
-m < n-1
-
-m >= n
-
-Tất cả các phát biểu đều sai
+- m = n - 1
 
 Phát biểu "Tổng luồng đi ra khỏi đỉnh phát bằng tổng luồng đi vào đỉnh thu" trên một mạng là đúng hay sai?
-ĐÚNG
 
-SAI
+- ĐÚNG
 
 Phát biểu "luồng trên mỗi cung luôn trong một mạng phải bằng khả năng thông qua của cung đó" là đúng hay sai?
-SAI
 
-ĐÚNG
+- SAI
 
 Có bao nhiêu hoán vị của 1, 2, 3, 4, 5, 6, 7, 8, 9 sao cho không có 2 số chẵn nào đứng cạnh nhau?
-Tất cả các phương án đều sai
 
-43200
-
-1000
-
-12430
-
-25600
-
-151230
-
-200900
-
-13890
-
-18230
+- 43200
 
 Hỏi đồ thị hai phía đầy đủ K4,6 có tất cả bao nhiêu cạnh?
-24
 
-10
-
-2
-
-Tất cả các đáp án đều sai
+- 24
 
 Hỏi phát biểu "Mọi đơn đồ thị vô hướng liên thông chứa ít nhất 3 đỉnh mà bậc của mỗi đỉnh lớn hơn hoặc bằng 2" đều chứa chu trình cơ bản (không lặp lại cạnh mỗi cạnh xuất hiện nhiều nhất 1 lần) là đúng hayy sai?
-ĐÚNG
 
-SAI
+- ĐÚNG
 
 Cho G là đồ thị phẳng, liên thông, số đỉnh lớn hơn hoặc bằng 3. Ký hiệu n là số đỉnh và m là số cạnh của G. Hỏi phát biểu "m nhỏ hơn hoặc bằng 3n-6" là đúng hay sai?
-Đúng
 
-Sai
+- Đúng
 
 Cho G là đồ thị phẳng, liên thông, số đỉnh lớn hơn hoặc bằng 3. Ký hiệu f là số phần mặt phẳng được chia ra khi G biểu diễn phẳng trên mặt phẳng và m là số cạnh của G. Hỏi phát biểu "3f lớn hơn hoặc bằng 2m" là đúng hay sai?
-Đúng
 
-Sai
+- Đúng
 
 Đồ thị hai phía đầy đủ K3,3 có phải là đồ thị phẳng không?
-Không
 
-Có
+- Không
 
 Đồ thị đầy đủ K5 có phải là đồ thị phẳng hay không?
-Không
 
-Có
+- Không
 
 Cho G là một đồ thị phẳng liên thông. Hỏi phát biểu "G luôn chứa 1 đỉnh mà bậc nhỏ hơn hoặc bằng 5" là đúng hay sai?
-Đúng
 
-Sai
+- Đúng
