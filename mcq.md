@@ -86,184 +86,92 @@ Phát biểu nào sau đây là đúng?
 - Chu trình Hamilton trên đồ thị vô hướng G là chu trình đi qua tất cả các đỉnh, mỗi đỉnh đúng 1 lần (trừ đỉnh xuất phát)
 
 Cho đồ thị có hướng G = (V,E) trong đó tập đỉnh V = {1,2,3,4,5,6} và tập cung E = {(1,2),(2,5),(2,6),(3,1),(3,2),(5,4),(5,6),(6,1),(6,4)}. Hỏi có thể tiến hành sắp xếp TOPO các đỉnh trên G hay không?
-CÓ
 
-KHÔNG
+- KHÔNG
 
 Có bao nhiêu xâu nhị phân độ dài 5 không chứa 2 bít 1 đứng cạnh nhau?
 
 - 13
 
 Cho đồ thị vô hướng G=(V,E) trong đó tập đỉnh V = {1, 2, 3, 4, 5, 6} và tập cạnh E ={(1,2),(,1,3),(1,6),(2,3),(2,5),(2,6),(4,5),(4,6),(5,6). Thực hiện phép duyệt đồ thị G theo chiều rộng (khi xét các đỉnh thì xét theo thứ tự từ điển). Hỏi thứ tự các đỉnh được thăm trong phép duyệt theo chiều rộng là thứ tự nào dưới đây?
-1, 2, 3, 4, 5, 6
 
-1, 2, 3, 5, 4, 6
-
-1, 2, 3, 6, 4, 5
-
-1, 2, 3, 6, 5, 4
+- 1, 2, 3, 6, 5, 4
 
 Cho đồ thị vô hướng G=(V,E) trong đó tập đỉnh V = {1, 2, 3, 4, 5, 6} và tập cạnh E ={(1,2),(,1,3),(1,6),(2,3),(2,5),(2,6),(4,5),(4,6),(5,6). Thực hiện phép duyệt đồ thị G theo chiều rộng (khi xét các đỉnh thì xét theo thứ tự từ điển). Hỏi đường đi từ đỉnh 1 đến đỉnh 4 trong phép duyệt theo chiều rộng là đường đi nào dưới đây?
-1 - 6 - 4
 
-1 - 2 - 5 - 4
-
-1 - 2 - 6 - 4
-
-1 - 3 - 2 - 5 - 4
+- 1 - 6 - 4
 
 Phát biểu nào sau đây là đúng?
-Chu trình Euler trên đồ thị vô hướng G là chu trình đi qua tất cả các đỉnh, mỗi đỉnh đúng 1 lần (trừ đỉnh xuất phát)
 
-Chu trình Euler trên đồ thị vô hướng G là chu trình đi qua tất cả các cạnh của G, mỗi cạnh đúng 1 lần (trừ đỉnh xuất phát)
+- Chu trình Euler trên đồ thị vô hướng G là chu trình đi qua tất cả các cạnh của G, mỗi cạnh đúng 1 lần (trừ đỉnh xuất phát)
 
 Cho đồ thị có hướng G = (V,E) trong đó tập đỉnh V = {1,2,3,4,5,6} và tập cung E = {(1,6),(2,1),(2,5),(2,6),(3,1),(3,2),(5,4),(5,6),(6,4)}. Thứ tự các đỉnh trong sắp xếp TOPO trên G là thứ tự nào sau đây?
-3, 2, 1, 5, 6, 4
 
-1, 2, 3, 4, 5, 6
-
-6, 5, 4, 3 , 2, 1
-
-3, 1, 6, 4, 2, 5
+- 3, 2, 1, 5, 6, 4
 
 Có bao nhiêu xâu nhị phân độ dài 5 sao cho bít đầu và bít cuối bằng nhau?
 
 - 16
 
 Cho đồ thị vô hướng G=(V,E) trong đó tập đỉnh V = {1, 2, 3, 4, 5, 6} và tập cạnh E ={(1,2),(,1,3),(1,6),(2,3),(2,5),(2,6),(4,5),(4,6),(5,6). Thực hiện phép duyệt đồ thị G theo chiều rộng (khi xét các đỉnh thì xét theo thứ tự từ điển). Hỏi độ dài đường đi (tính theo số cạnh) từ đỉnh 6 đến đỉnh 3 là bao nhiêu?
-2
 
-3
-
-4
+- 2
 
 Cho mạng G = (V,E) trong đó tập đỉnh V = {1,2,3,4,5,6} và tập cung E = {(1,6),(2,1),(2,5),(2,6),(3,1),(3,2),(5,4),(5,6),(6,4)}. Khả năng thông qua trên các cung được cho như sau: c(1,6) = 6, c(2,1)=5, c(2,5) = 2, c(2,6) = 4, c(3,1) = 9, c(3,2) = 7, c(5,4) = 8, c(5,6) = 6, c(6,4) = 8. Hỏi luồng cực đại trên G có giá trị bằng bao nhiêu?
-9
 
-10
-
-13
-
-16
+- 10
 
 Hỏi có bao nhiêu bộ có thứ tự (A, B) sao cho:
 A, B là 2 tập con của {1, 2, 3, 4}
 Số phần tử của A hợp với B là 4
 Số phần tử của A giao B là 1
-32
 
-16
-
-30
-
-62
+- 32
 
 Ký hiệu F(k,n) là số cách chọn ra k phần tử từ n phần tử 1, 2, …, n sao cho có ít nhất 2 phần tử liên tiếp nhau cùng được chọn
 Công thức truy hồi (đệ quy) cho F(k,n) là:
 
-F(k, n) = F(k-1, n-2) + F(k, n- 1)
-
-       F(k, n) = 1, nếu k = 0 hoặc k = n
-
-       F(k, n) = 0, nếu k > n hoặc k <= 1 hoặc n <= 1
-
-    F(k, n) = 2F(k-1, n-1) + F(k, n-2)
-
-       F(k, n) = 1, nếu k = 0 hoặc k = n
-
-       F(k, n) = 0, nếu k > n hoặc k <= 1 hoặc n <= 1
-
-F(k, n) = F(k-2, n-1) + F(k, n – 2)
-
-      F(k, n) = 1, nếu k = 0 hoặc k = n
-
-      F(k, n) = 0, nếu k > n hoặc k <= 1 hoặc n <= 1
-
-    F(k, n) = F(k-1, n-2) + C(k-2, n-2) + F(k, n-1),
-
-        F(k, n) = 1, nếu k = 0 hoặc k = n
-
-        F(k, n) = 0, nếu k > n hoặc k <= 1 hoặc n <= 1
+- F(k, n) = F(k-1, n-2) + C(k-2, n-2) + F(k, n-1),
+  F(k, n) = 1, nếu k = 0 hoặc k = n
+  F(k, n) = 0, nếu k > n hoặc k <= 1 hoặc n <= 1
 
 Hỏi có bao nhiêu cách phân tích 10 thành tổng của các số nguyên dương ?
-30
 
-42
-
-47
-
-52
+- 42
 
 Hỏi có tồn tại đồ thị phẳng liên thông trong đó có 6 đỉnh và 14 cạnh hay không?
-Có
 
-Không
+- Không
 
 Đồ thị K3,5 có số cạnh là bao nhiêu?
-3
 
-5
-
-8
-
-15
-
-nào đúng
+- 15
 
 Hỏi phương trình sau đây có bao nhiêu nghiệm nguyên dương:
 X1 + X2 + X3 + X4 = 11
 
-72
-
-120
-
-141
-
-50
+- 120
 
 Có bao nhiêu cách chọn ra 4 phần tử từ 7 số 1, 2, …, 7 sao cho luôn có 2 số liên tiếp nhau cùng được chọn?
-12
 
-34
-
-25
-
-33
+- 34
 
 Cho dãy 1, 3, 2, 7, 6, 8, 4, 2, 6, 7. Hỏi có tất cả bao nhiêu dãy con (gồm 1 số liên tiếp các phần tử đứng cạnh nhau) của dãy đã cho có tổng các phần tử là số chẵn?
-27
 
-30
-
-31
-
-35
-
-40
-
-Tất cả các phương án trả lời đều sai
+- 27
 
 Đồ thị vô hướng có 10 đỉnh, bậc của mỗi đỉnh lớn hơn hoặc bằng 5. Hỏi phát biểu "G luôn là đồ thị liên thông" là đúng hay sai?
-Đúng
 
-Sai
+- Đúng
 
 Một người giao hàng xuất phát từ cửa hàng (điểm 1), cần đi qua 3 điểm 2, 3, 4 để giao hàng và quay về cửa hàng. Thông tin khoảng cách đi giữa 2 điểm được cho trong ma trận khoảng cách c trong đó c(i,j) là khoảng cách di chuyển từ điểm i đến điểm j (i, j = 1,…, 4). Hãy cho biết hành trình đi có tổng khoảng cách nhỏ nhất với ma trân chi phí cho dưới đây:
-0 3 2 4
 
+    0 3 2 4
     1 0 5 3
-
     2 3 0 7
-
     1 1 3 0
 
-1 – 4 – 2 – 3 – 1
-
-1 – 3 – 2 – 4 – 1
-
-1 – 2 – 3 – 4 – 1
-
-1 – 4 – 2 – 3 – 1
+- 1 – 3 – 2 – 4 – 1
 
 Cho 6 chi tiết sản phẩm 1, 2, …, 6 cần được gia công trên 2 máy A và B với thời gian gia công trên máy A lần lượt là 3, 2, 5, 4, 6, 7 và trên máy B lần lượt là 1, 2, 4, 3, 7, 4.
 Biết rằng
