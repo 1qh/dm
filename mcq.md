@@ -281,6 +281,13 @@ Cho G là một cây có n đỉnh và m cạnh. Hỏi phát biểu nào sau đ�
 
 - m lớn hơn hoặc bằng n
 
+Có bao nhiêu hoán vị của 1, 2, . . ., 7 trong đó:
+1 đứng trước 4,
+1 đứng trước 5, và
+4 đứng trước 6
+
+- $3 * 7C4 * 3! = 630$
+
 Cho một mạng G = (V,E) trong đó V = {1,2,3,4,5,6,7,8} là tập đỉnh và tập cung E với khả năng thông qua được cho như sau: c(1, 2)= 7, c(1, 3) = 6, c(1, 8) = 2, c(2, 3) = 5, c(2, 5)= 2, c(3, 6) = 9, c(3, 7)= 8, c(3, 8) = 4, c(5, 4) = 8, c(6, 4)= 2, c(7, 5)= 1, c(7, 6)= 4, c(8, 6)= 3, c(8, 4) = 5. Hỏi lát cắt ({1, 2, 3}, {4, 5, 6, 7, 8}) có khả năng thông qua là bao nhiêu?
 
 - 25
